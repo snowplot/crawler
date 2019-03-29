@@ -1,0 +1,28 @@
+{
+  "name": "snowplot-updater",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc -p .",
+    "lint": "tslint src/**/*.ts --fix"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "mongoose": "^5.4.16",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/mongoose": "^5.3.20",
+    "@types/node": "^11.9.5",
+    "@types/request": "^2.48.1",
+    "@types/request-promise-native": "^1.0.15",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.3.3333"
+  }
+}
